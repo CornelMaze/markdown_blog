@@ -1,0 +1,19 @@
+How to Build a Markdown Blog using Node.js, Express, and mongodb
+
+To Build this site we use
+ => npm i express mongoose ejs
+ => npm i marked slugify
+ => npm i method-override
+ => npm i dompurify jsdom
+marked is used to convert Markdown to html.
+slugify allows us to convert something like 'title' into a 'url' from the slug instead of using id.
+
+method-override allows us to do 'delete', 'put', or 'patch' method from our form instead of just 'get' and 'post'.
+We use dompurify to sanitice our input to prevent malicious javascript input by users.
+jsdom is used to render html inside of node.js
+
+npm i express mongoose ejs marked slugify method-override dompurify jsdom
+
+
+
+
